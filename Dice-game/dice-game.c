@@ -10,7 +10,7 @@ int main()
     char response;
     do
     {
-        int i, k, j, score, quit = 0, sum;
+        int i, k, j, score=0, quit = 0, sum;
         int user_gues, chance_count = 1;
         long t = time(NULL);
         srand(t);
