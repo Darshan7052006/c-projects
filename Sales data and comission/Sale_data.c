@@ -29,10 +29,10 @@ for(i=0;i<r;i++){
     printf("----------------------------------------\n");
     total =0.0; 
     for(j=0;j<c;j++){
-        printf("\tItem %d: $0.2lf\n", i+1,saledata[i][j]);
+        printf("\tItem %d: $%0.2lf\n", j+1,saledata[i][j]);
         total+=saledata[i][j];
     }
-    printf("\tTotal : $0.2lf\n", total);
+    printf("\tTotal : $%0.2lf\n", total);
     comm=total*0.1;
     printf("\tComission : $%0.2lf", comm);
     printf("\n\n");
