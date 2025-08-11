@@ -21,7 +21,7 @@ int main()
         scanf("%d", &option);
         if (option >= 1 && option <= 3)
         {
-            printf("Input the matrix for which you have to find the transpose");
+            printf("Input the matrix \n");
             printf("Enter the number of rows: ");
             scanf("%d", &row);
             printf("Enter the number of columns: ");
